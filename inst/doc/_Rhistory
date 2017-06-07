@@ -1,0 +1,15 @@
+parameter <- data.frame(N = c(rep.int(seq(0.5, 1.4, 0.1), 6)),
+LAI = c(rep.int(0.5, 10), rep.int(1, 10),
+rep.int(1.5, 10), rep.int(2, 10),
+rep.int(2.5, 10), rep.int(3, 10)))
+spectra <- PROSAIL(parameterList = parameter)
+parameter <- data.frame(N = c(rep.int(seq(0.5, 1.4, 0.1), 6)),
+LAI = c(rep.int(0.5, 10), rep.int(1, 10),
+rep.int(1.5, 10), rep.int(2, 10),
+rep.int(2.5, 10), rep.int(3, 10)))
+spectra <- PROSAIL(parameterList = parameter)
+##' 2500 nm (1 nm step) with the following parameters:
+LRT <- prospect4(2,65,0.004,0.002)
+LRT <- prospect4(2,65,0.004,0.002)
+search()
+library(utils)
